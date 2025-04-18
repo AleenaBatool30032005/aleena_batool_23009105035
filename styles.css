@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+body{
+    color: #333;
+}
+
+img{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.my-img{
+    margin-top: 0;
+}
+
+/* Typography */
+    
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+
+
+    h2,h3{
+        color: #2c3e50;
+    }
+
+    h2{
+        font-size: 25px;
+        margin-bottom: 16px;
+        border-bottom: 2px solid #2c3e50;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .normal-text{
+        font-size: 1.3rem;
+        border-bottom: 2px solid white;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+    }
+
+    section .normal-text{
+        border: none;
+    }
+
+    .aside-section a{
+        text-decoration: none;
+        color: #333;
+    }
+
+    .small-text{
+        font-size: 0.8rem;
+        font-style: italic;
+        color: #333333;
+    }
+
+    .aside-section span{
+        display: block;
+    }
+
+    .line-wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    
+    .square{
+        list-style-image: url(images/square.png);
+        padding-left: 20px;
+    }
+
+    li{
+        margin: 20px 0;
+    }
+    
+
+/* Layout */
+
+.container{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(244, 244, 243);
+    margin: 0 auto;
+    padding: 40px;
+}
+
+aside{
+    width: 22%;
+}
+
+main{
+    width: 73%;
+}
+
+
+/* Header */
+
+
+
+.about{
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-right: -40px;
+}
+
+/* Aside */
+
+section{
+    margin: 30px 0;
+}
+
+.aside-section-info{
+    margin-bottom: 14px;
+}
+
+.skills{
+    background-color: #a4a9b2;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: fit-content;
+}
+
+.interest{
+    border: 2px solid #a4a9b2;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: fit-content;
+}
